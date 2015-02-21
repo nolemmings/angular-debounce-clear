@@ -1,8 +1,10 @@
 # angular-debounce-clear
-Simple directive that adds a clear event for debounce. When using [ngModelOptions](https://docs.angularjs.org/api/ng/directive/ngModelOptions) to add debounce to your `ngModel` fields, this directive adds the possibility to use `clear` as an event, triggered by clearing the field.
+Simple AngularJS directive that adds a clear event for debounce.
+
+Use `angular-debounce-clear` to supplement [ngModelOptions](https://docs.angularjs.org/api/ng/directive/ngModelOptions) with a `clear` event for `debounce`, which is triggered when a user clears the `ngModel` field.
 
 ## Usage
-Just add `nl-debounce-clear` to your `ng-model` annotated fields to use `clear` as an event for the debounce and updateOn properties of `ng-model-options`.
+Just add `nl-debounce-clear` to your `ng-model` annotated fields to use `clear` as an event for the `debounce` and `updateOn` properties of `ng-model-options`.
 
 ```
 <input type="text"
@@ -20,16 +22,16 @@ Just use bower to install the package:
 bower install --save angular-debounce-clear
 ```
 
-In your AngularJS app, add a dependency:
+In your AngularJS app, add `angular-debounce-clear` as dependency:
 
 ```
-angular.module('myApp', ['myDependency', ..., 'angular-debounce-clear'])
+angular.module('myApp', ['angular-debounce-clear'])
 ```
 
-Now, you are able to use it as described under *Usage*.
+Now, you are able to use the `nl-debounce-clear` directive as described under *Usage*.
 
 ## Seeing before believing
-Want to run an example first? Take these steps:
+Want to run a working example? Take these steps:
 
 Clone the repo:
 
