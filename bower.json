@@ -11,5 +11,10 @@
   },
   "main": [
     "./bin/nl-debounce-clear.js"
+  ],
+  "ignore": [
+    "./example",
+    "./src",
+    "./gulpfile.coffee"
   ]
 }
