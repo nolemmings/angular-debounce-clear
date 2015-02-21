@@ -19,5 +19,6 @@
     "example",
     "src",
     "gulpfile.coffee"
+    "package.json"
   ]
 }
