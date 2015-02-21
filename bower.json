@@ -1,7 +1,8 @@
 {
-  "name": "angular-debounce-clear-example",
+  "name": "angular-debounce-clear",
   "version": "0.1.3",
-  "description": "Example for angular-debounce-clear directive",
+  "description": "Simple directive that adds a clear event for debounce",
+  "keywords": ["angular", "angularjs", "debounce", "ngModel", "ng-model", "ngModelOptions", "ng-model-options", "clear"],
   "author": {
     "name": "Nolemmings",
     "email": "info@nolemmings.nl"
@@ -13,8 +14,8 @@
     "./bin/nl-debounce-clear.js"
   ],
   "ignore": [
-    "./example",
-    "./src",
-    "./gulpfile.coffee"
+    "example",
+    "src",
+    "gulpfile.coffee"
   ]
 }
