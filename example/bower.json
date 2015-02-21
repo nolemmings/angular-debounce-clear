@@ -1,6 +1,6 @@
 {
   "name": "angular-debounce-clear-example",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "Example for angular-debounce-clear directive",
   "author": {
     "name": "Nolemmings",
