@@ -29,7 +29,7 @@ gulp.task 'bower-install', ->
   bower cwd: config.path.example
 
 # Compiles necessary dependencies for the example
-gulp.task 'compile', ['dist', 'bower-install'], ->
+gulp.task 'compile', ['bower-install'], ->
   gulp.src bowerFiles
     paths: config.path.example
   .pipe gulp.dest config.path.exampleLib
@@ -40,9 +40,9 @@ gulp.task 'dist', (cb) ->
   .pipe coffee
     bare: true
   .pipe gulp.dest './bin/'
+  .pipe gulp.dest './example/lib/'
   cb()
 
 # Registers watches for compile and dist
 gulp.task 'watch', ->
-  gulp.watch "#{config.path.bin}/*.js", ['compile']
   gulp.watch "#{config.path.source}/*.coffee", ['dist']
