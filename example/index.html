@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Quick test case for clear directive</title>
   <script src="lib/angular.js"></script>
+  <script src="lib/nl-debounce-clear.js"></script>
   <style>
   * {
     font-family: sans-serif;
@@ -14,8 +15,8 @@
   <h1>Debounce test angular-debounce-clear</h1>
   <p>Hello there, please open the console to see when debounce happens</p>
   <p>
-    <input type="text" ng-model="name" ng-model-options="{ updateOn: 'default blur', debounce: {'default': 1000, 'blur': 0} }"
- autofocus />
+    <input type="text" ng-model="name" ng-model-options="{ updateOn: 'default blur clear', debounce: {'default': 1000, 'blur': 0, 'clear': 0} }"
+ nl-debounce-clear autofocus />
   </p>
   <p>You've written: {{name}}</p>
 
@@ -28,7 +29,7 @@
   </p>
 
   <script>
-  angular.module('myApp', [])
+  angular.module('myApp', ['angular-debounce-clear'])
   .controller('myController', function($scope) {
     $scope.name = '';
 
