@@ -3,6 +3,7 @@
   "version": "0.1.3",
   "description": "Simple directive that adds a clear event for debounce",
   "keywords": ["angular", "angularjs", "debounce", "ngModel", "ng-model", "ngModelOptions", "ng-model-options", "clear"],
+  "repository": "https://github.com/nolemmings/angular-debounce-clear",
   "author": {
     "name": "Nolemmings",
     "email": "info@nolemmings.nl"
