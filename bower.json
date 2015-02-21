@@ -1,0 +1,12 @@
+{
+  "name": "angular-debounce-clear",
+  "version": "0.1.0",
+  "description": "Simple directive that adds a clear event for debounce",
+  "author": {
+    "name": "Nolemmings",
+    "email": "info@nolemmings.nl"
+  },
+  "main": [
+    "./bin/nl-debounce-clear-directive.js"
+  ]
+}
