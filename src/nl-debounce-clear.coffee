@@ -4,4 +4,4 @@
     require: 'ngModel'
     restrict: 'A'
     link: ($scope, element, attrs, ngModelCtrl) ->
-      console.log 'Im here. Honey! Boney!'
+      console.log 'Im here.'
