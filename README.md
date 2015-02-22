@@ -33,20 +33,11 @@ Now, you are able to use the `nl-debounce-clear` directive as described under *U
 ## Seeing before believing
 Want to run a working example? Take these steps:
 
-Clone the repo:
+1. Clone the repo  
+`git clone https://github.com/nolemmings/angular-debounce-clear ./debounce && cd ./debounce`
 
-```
-git clone https://github.com/nolemmings/angular-debounce-clear ./debounce && cd ./debounce
-```
+2. Install necessary tooling  
+`npm install`
 
-Install necessary tooling:
-
-```
-npm install
-```
-
-Run our example:
-
-```
-gulp example
-```
+3. Run our example  
+`gulp example`
