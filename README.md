@@ -3,6 +3,8 @@ Simple AngularJS directive that adds a clear event for debounce.
 
 Use the `nl-debounce-clear` directive to supplement [ngModelOptions](https://docs.angularjs.org/api/ng/directive/ngModelOptions) with a `clear` event for `debounce`, which is triggered when a user clears the `ngModel` field.
 
+Interested in how `debouce` works? Or how to define your own custom `debounce` events? Then read the accompanying blogpost, [AngularJS: Custom debounce events](https://medium.com/@jasperkuperus/angularjs-custom-debounce-events-5a4f5c597b2).
+
 ## Usage
 Just add `nl-debounce-clear` to your `ng-model` annotated fields to use `clear` as an event for the `debounce` and `updateOn` properties of `ng-model-options`.
 
